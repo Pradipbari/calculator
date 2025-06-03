@@ -1,0 +1,76 @@
+*{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            height: 90vh;
+            width: 25vw;
+            background-color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 10px;
+            background: #fff
+            
+        }
+        form{
+            height: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 25px;
+        }
+        /* .calculator{
+            height: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 25px;
+        } */
+        .all-rows{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 20px;
+           
+        }
+        .first-row input{
+            height: 100%;
+            width: 100%;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            text-align: right;
+            color: gray;
+            font-size: 2rem;
+            background: rgb(244, 240, 240);
+            box-shadow: 1px 1px 8px -1px rgb(150, 153, 153);
+        }
+        .all-rows input{
+            font-size: 1.2rem;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            color: rgb(3, 219, 252);
+            background: rgb(244, 240, 240);
+            box-shadow: 1px 1px 8px -1px rgb(150, 153, 153);
+            font-weight: 800;
+        }
+        .all-rows input:hover{
+            transform: scale(1.02);
+            transition: 0.05s;
+        }
+        span{
+            position: absolute;
+            top: 8px;
+            font-size: 1.5rem;
+            color: gray;
+            display: none;
+        }
+        .first-row{
+            position: relative;
+        }
