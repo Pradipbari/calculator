@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pradipbari&label=Profile%20views&color=0e75b6&style=flat" alt="pradipbari" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pradipbari" alt="pradipbari" /></a> </p>
-
 - 🔭 I’m currently working on **Calculator-A web app**
 
 - 🌱 I’m currently learning **React Js,Node Js, mongoDB**
